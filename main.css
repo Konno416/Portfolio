@@ -146,11 +146,13 @@
 .project-link {
     color: cyan;
     text-decoration: none;
+    transition: 0.25s;
 }
 
 .project-link:visited {
     color: cyan;
     text-decoration: none;
+    transition: 0.25s;
 }
 
 .project-link:hover {
