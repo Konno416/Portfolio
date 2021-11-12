@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -76,6 +76,7 @@
     border-bottom: 2px solid cyan;
     padding: 3vh;
     margin: 0 auto;
+    transition: 0.3s;
 }
 
 .ab-title:hover {
@@ -108,6 +109,7 @@
     border-bottom: 2px solid cyan;
     padding: 3vh;
     margin: 0 auto;
+    transition: 0.3s;
 }
 
 .proj-title:hover {
@@ -166,3 +168,39 @@
     margin-top: 6vh;
 }
 
+.Resumes {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 90vh;
+    background-color: gray;
+}
+
+.resume-title {
+    margin-top: 5vh;
+    color: cyan;
+    font-size: 160%;
+    text-align: center;
+    width: 20%;
+    border-bottom: 2px solid cyan;
+    padding: 3vh;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.resume-title:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+
+.res {
+    margin: 0 auto;
+    background-color: black;
+    width: 50%;
+    height: 70vh;
+}
+
+.resu {
+    width: 100%;
+    height: 70vh;
+}
